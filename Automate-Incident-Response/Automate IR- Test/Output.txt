@@ -1,0 +1,78 @@
+PS C:\Users\prajs_28\OneDrive\Desktop\PKF ALgosmic\Automate IR\Automate-Incident-Response> & C:/Users/prajs_28/AppData/Local/Microsoft/WindowsApps/python3.10.exe "c:/Users/prajs_28/OneDrive/Desktop/PKF ALgosmic/Automate IR/Automate-Incident-Response/initiate_IR.py"
+
+HTTP logs have been exported to http_network_logs.xls
+
+
+DNS logs have been exported to dns_network_logs.xls
+
+
+************************** SUMMMARY OF RESULTS FOR HTTP NETWORK CONNECTIONS ***************************
+
+confirmed_malicious: 3
+clean: 1
+
+View Detailed Results in: 'C:/Users/prajs_28/OneDrive/Desktop/PKF ALgosmic/Automate IR/Automate-Incident-Response/CSV Results/output_http.xlsx'
+
+************************** SUMMARY OF RESULTS FOR DNS NETWORK CONNECTIONS ***************************
+
+confirmed_malicious: 3
+clean: 1
+
+View Detailed Results in: 'C:/Users/prajs_28/OneDrive/Desktop/PKF ALgosmic/Automate IR/Automate-Incident-Response/CSV Results/output_dns.xlsx'
+
+================================ TAKING RESPONSIVE ACTIONS ============================
+[+] Capturing Raw DNS/HTTP Logs for user Prakash.Kunte
+TransportError connecting to Elasticsearch: Connection timed out
+[+] No HTTP/DNS logs found for user Prakash.Kunte
+
+[+] Capturing Raw Sign-in Logs for user Prakash.Kunte
+[+] No Sign-In logs found for user Prakash.Kunte
+
+[+] Capturing Raw File Logs for user Prakash.Kunte
+[+] File Creation logs for user Prakash.Kunte have been exported to C:/Users/prajs_28/OneDrive/Desktop/PKF ALgosmic/Compromised_logs_(07-04)/Prakash.Kunte\file_download_logs_Prakash.Kunte.xlsx]
+
+[+] Capturing Raw DNS/HTTP Logs for user risha.naik
+TransportError connecting to Elasticsearch: Connection timed out
+[+] No HTTP/DNS logs found for user risha.naik
+
+[+] Capturing Raw Sign-in Logs for user risha.naik
+[+] No Sign-In logs found for user risha.naik
+
+[+] Capturing Raw File Logs for user risha.naik
+[+] File Creation logs for user risha.naik have been exported to C:/Users/prajs_28/OneDrive/Desktop/PKF ALgosmic/Compromised_logs_(07-04)/risha.naik\file_download_logs_risha.naik.xlsx]
+
+[+] Capturing Raw DNS/HTTP Logs for user Amardeep.Mardhekar
+TransportError connecting to Elasticsearch: Connection timed out
+[+] No HTTP/DNS logs found for user Amardeep.Mardhekar
+
+[+] Capturing Raw Sign-in Logs for user Amardeep.Mardhekar
+[+] No Sign-In logs found for user Amardeep.Mardhekar
+
+[+] Capturing Raw File Logs for user Amardeep.Mardhekar
+TransportError connecting to Elasticsearch: Connection timed out
+[+] No File logs found for user Amardeep.Mardhekar
+
+[+] Capturing Raw DNS/HTTP Logs for user Paras.Jain
+[+] HTTP and DNS logs for user Paras.Jain have been exported to C:/Users/prajs_28/OneDrive/Desktop/PKF ALgosmic/Compromised_logs_(07-04)/Paras.Jain\http_dns_logs_Paras.Jain.xlsx]
+
+[+] Capturing Raw Sign-in Logs for user Paras.Jain
+[+] No Sign-In logs found for user Paras.Jain
+
+[+] Capturing Raw File Logs for user Paras.Jain
+[+] File Creation logs for user Paras.Jain have been exported to C:/Users/prajs_28/OneDrive/Desktop/PKF ALgosmic/Compromised_logs_(07-04)/Paras.Jain\file_download_logs_Paras.Jain.xlsx]
+
+[+] Capturing Raw DNS/HTTP Logs for user Sachin.Kulkarni
+[+] No HTTP/DNS logs found for user Sachin.Kulkarni
+
+[+] Capturing Raw Sign-in Logs for user Sachin.Kulkarni
+[+] No Sign-In logs found for user Sachin.Kulkarni
+
+[+] Capturing Raw File Logs for user Sachin.Kulkarni
+TransportError connecting to Elasticsearch: Connection timed out
+[+] No File logs found for user Sachin.Kulkarni
+
+
+[+] Sending Alert Email . . .
+[+] Email Sucessfully Sent !!
+
+PS C:\Users\prajs_28\OneDrive\Desktop\PKF ALgosmic\Automate IR\Automate-Incident-Response> 

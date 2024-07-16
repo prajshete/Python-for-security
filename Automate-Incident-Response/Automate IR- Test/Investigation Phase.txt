@@ -1,0 +1,28 @@
+Plan of Action - Investigation Phase
+
+main.py (will provide options to spawn other tools)
+
+--- tool 1: http_network_connections.py
+     - pull logs from elastic(filtered and duplicates removed)
+     - Check for destination ip
+	 if ip_score > 5
+	    print confirm-malicious
+	 if ip_score 1 to 5
+	    scan for dns
+	    if dns has hits
+	    	print confirm-malicious
+	    else
+		print suspicious-need additional investigation
+ 	 if ip_score == 0
+	    scan for dns
+	    if dns has hits
+	        print suspicious-need additional investigation
+            else 
+                print clean
+
+- tool 2: TBD
+- tool 3: TBD
+
+
+
+
