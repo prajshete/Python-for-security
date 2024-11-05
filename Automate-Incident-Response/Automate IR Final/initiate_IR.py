@@ -1087,7 +1087,7 @@ def main(timestamp: str = typer.Option(..., help="Timestamp range for the query,
     elk_api_path = "/Automate-Incident-Response/api_key.txt"
     vt_api_path = "/Automate-Incident-Response/vt_api_key.txt"
 
-    ELASTIC_BASE_URL = "https://chromewell-elk-soc.es.us-central1.gcp.cloud.es.io" 
+    ELASTIC_BASE_URL = "enter elastic endpoint url" 
     API_KEY = read_api_key(elk_api_path)
 
 #----------------------------------------------------------------------------------------------
